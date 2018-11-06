@@ -1,0 +1,50 @@
+app:
+  id: TISV
+  name: application
+  buildNumber: "1.0.0"
+
+spring:
+  main:
+    bannerMode: "OFF"
+  data:
+    mongodb:
+      database: Recipes_Database
+      port: 27017
+      host: localhost
+
+server:
+  port: 9000
+  tomcat:
+    acceptCount: 1024
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain,text/css,application/javascript
+
+management:
+  server:
+    servlet:
+      context-path: /status
+    port: 9443
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
+        exclude: shutdown
+      base-path: /
+  info:
+    build:
+      enabled: true
+    defaults:
+      enabled: true
+
+
+#      management:
+#        security:
+#          enabled: false
+#          exposure:
+#                  include: heapdump,liquibase,loggers,prometheus,threaddump,info,metrics,health
+#
