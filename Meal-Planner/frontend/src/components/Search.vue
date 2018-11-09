@@ -16,14 +16,6 @@
 
     export default {
         methods: {
-            findMeal(){
-                try {
-                    this.foundMeals = await FindMealService.findByMealName(this.mealName);
-                } else {
-
-                }
-            }
-
         }
     }
 

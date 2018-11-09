@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@RequestMapping("/api")
 public class RecipeController {
 
     @Autowired
@@ -32,6 +33,11 @@ public class RecipeController {
     @RequestMapping("/search/findAll")
     public List<Recipe> findAll() {
         return recipeService.findAllRecipes();
+    }
+
+    @RequestMapping("/welcome")
+    public String welcome() {
+        return "Welcome Natalie";
     }
 
 
