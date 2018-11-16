@@ -1,22 +1,22 @@
 <template>
     <div>
         <h2>Add A New meal</h2>
+        <input-box></input-box>
     </div>
 </template>
 
 <script>
 import Header from '@/components/Header'
-import TextQuestion from '@/components/questions/textQuestion'
+import inputBox from '@/components/questions/inputBox'
 import navbar from '@/components/NavBar'
 
 export default {
   components: {
     'app-header': Header,
-    'text-question': TextQuestion,
+    'input-box': inputBox,
     'navbar': navbar
   },
   method: {
-
   }
 }
 </script>
