@@ -22,14 +22,12 @@ public class RecipeController {
     @Autowired
     RecipeService recipeService;
 
-    //Post Requests
     @RequestMapping(value = "/plannerDB/add", method = RequestMethod.POST)
     public String AddNewRecipe(@RequestBody Recipe recipe) {
         return recipeService.AddNewRecipeToMongoDb(recipe);
     }
 
 
-    //Get Requests
     @RequestMapping("/search/findAll")
     public List<Recipe> findAll() {
         return recipeService.findAllRecipes();

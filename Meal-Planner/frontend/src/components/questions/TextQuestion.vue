@@ -51,6 +51,11 @@ export default {
 </script>
 
 <style scoped>
+    .label {
+      display: inline-block;
+      line-height: 1.4;
+      padding: 0 30px 10px 0;
+    }
     .input {
         padding: 16px 15px 17px;
         font-family: inherit;

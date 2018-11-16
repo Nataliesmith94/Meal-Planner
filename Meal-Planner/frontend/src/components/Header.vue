@@ -20,18 +20,9 @@ export default {
 </script>
 
 <style>
-  /*header {*/
-    /*background: lightskyblue;*/
-    /*padding-top: 5px;*/
-  /*}*/
-
-  /*header button svg {*/
-      /*width: 20px;*/
-      /*height: 20px;*/
-  /*}*/
   header {
       width: 100%;
-      height: 60px;
+      height: 50px;
 
       position: fixed;
       padding: 15px;
@@ -48,6 +39,7 @@ export default {
   header h1 {
       color: slategrey;
       text-align: center;
+      margin: 0px;
   }
 
   header button {
@@ -87,5 +79,4 @@ export default {
   header button svg .fill {
       fill: #25b99a;
   }
-
 </style>

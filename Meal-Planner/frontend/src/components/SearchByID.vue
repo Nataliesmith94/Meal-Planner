@@ -1,23 +1,27 @@
 <template>
-    <div class="form-group">
+    <div class="form-group-id">
         <input
             id="mealName"
             v-model="mealName"
-            name="mealName"
+            name="inputID"
             class="searchInput"
-            placeholder="Search by meal name..."
+            placeholder="Search by id..."
             type="text"/>
         <button
             class="searchButton"
             type="submit"
-            v-on:click = "findMeal">
-            Search  </button>
+            v-on:click="findMeal">
+            Search
+        </button>
         <ul class="search-result">
-            <li v-for= "(meal, index) in mealCollection" :key="index">
-                <h6>
-                    {{ meal.mealName }}
-                </h6>
-            </li>
+            <h6 v-if="meal">
+                {{ meal.mealName }}
+                <!--{{meal.ingredients}}-->
+                <!--{{meal.method}}-->
+                <!--{{meal.cookingTime}}-->
+                <!--{{meal.categories}}-->
+                {{ meal.author }}
+            </h6>
         </ul>
     </div>
 </template>
@@ -28,16 +32,17 @@ import axios from 'axios'
 export default {
   data () {
     return {
-      mealCollection: [], // Array
-      mealName: '' // String
+      meal: [],
+      mealName: '',
+      author: ''
     }
   },
   methods: {
     findMeal () {
-      axios.get('http://localhost:9000/api/search/findByMealName/' + this.mealName)
+      axios.get('http://localhost:9000/api/search/findByID/' + this.mealName)
         .then(response => {
-          this.mealCollection = response.data
-          console.log(this.mealCollection)
+          this.meal = response.data
+          console.log(this.meal)
         })
         .catch(e => {
           console.log(e)
@@ -49,9 +54,6 @@ export default {
 </script>
 
 <style>
-    .form-group {
-        padding-top: 60px;
-    }
     input {
         width: 20%;
         font-size: 16px;
@@ -69,7 +71,7 @@ export default {
         font-size: 16px;
         cursor: pointer;
         border: 2px solid slategrey;
-        background-color: forestgreen;
+        background-color: steelblue;
         color: white;
     }
 

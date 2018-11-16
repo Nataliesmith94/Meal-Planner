@@ -1,18 +1,16 @@
 <template>
   <form action="/action_page.php" method="get">
+      <navbar></navbar>
     <h2> {{ msg }} </h2>
   </form>
 </template>
 
 <script>
 import Header from '@/components/Header.vue'
+import navbar from '@/components/NavBar'
 import axios from 'axios'
 
 export default {
-
-  components: {
-      'app-header': Header
-  },
 
   async mounted () {
     const {data} = await axios.get('http://localhost:9000/api/welcome')
@@ -21,7 +19,8 @@ export default {
   },
 
   components: {
-    'app-header': Header
+    'app-header': Header,
+    'navbar': navbar
   },
 
   data () {

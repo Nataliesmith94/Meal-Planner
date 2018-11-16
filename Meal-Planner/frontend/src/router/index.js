@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 const HomePage = () => import('@/pages/HomePage')
 const AddMealPage = () => import('@/pages/AddMealPage.vue')
+const FindMealPage = () => import('@/pages/SearchForMealsPage.vue')
 
 Vue.use(Router)
 
@@ -22,6 +23,12 @@ export default new Router({
       path: '/planner/add',
       name: 'Add New Meal',
       component: AddMealPage,
+      step: true
+    },
+    {
+      path: '/planner/search',
+      name: 'Find Meal',
+      component: FindMealPage,
       step: true
     }
   ],
