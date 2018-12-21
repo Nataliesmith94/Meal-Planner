@@ -69,19 +69,19 @@
 </template>
 
 <script>
-    import Header from '@/components/Header'
-    import inputBox from '@/components/questions/inputBox'
-    import navbar from '@/components/NavBar'
-    import axios from 'axios'
+import Header from '@/components/Header'
+import inputBox from '@/components/questions/inputBox'
+import navbar from '@/components/NavBar'
+import axios from 'axios'
 
 export default {
-components: {
-  'app-header': Header,
-  'input-box': inputBox,
-  'navbar': navbar
-},
-data () {
-  return {
+  components: {
+    'app-header': Header,
+    'input-box': inputBox,
+    'navbar': navbar
+  },
+  data () {
+    return {
       MealName: '',
       Ingredients: '',
       PrepTime: 0,
@@ -89,16 +89,11 @@ data () {
       Categories: '',
       Source: '',
       Author: ''
-  }
-},
-methods: {
-  postRequest () {
-      console.log('button has been pressed');
-      console.log(this.MealName);
-      console.log(this.PrepTime);
-      console.log(this);
-
-    axios.post('http://localhost:9000/api/plannerDB/add', {
+    }
+  },
+  methods: {
+    postRequest () {
+      axios.post('http://localhost:9000/api/plannerDB/add', {
         mealName: this.MealName,
         ingredients: ['Test1', 'test2'],
         method: ['Test1', 'test2'],
@@ -106,13 +101,13 @@ methods: {
         cookingTime: this.cookingTime,
         categories: ['Test1', 'test2'],
         author: this.author
-    })
+      })
         .then(response => {
-            this.result = response.data;
-            console.log(this.result)
+          this.result = response.data
+          console.log(this.result)
         })
         .catch(e => {
-            console.log(e)
+          console.log(e)
         })
     }
   }

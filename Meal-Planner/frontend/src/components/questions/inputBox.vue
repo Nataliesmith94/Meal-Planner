@@ -40,10 +40,10 @@ export default {
       default: ''
     },
     value: {
-        type: [String, Number],
-        default: ''
-      }
-  },
+      type: [String, Number],
+      default: ''
+    }
+  }
 }
 </script>
 <style>
