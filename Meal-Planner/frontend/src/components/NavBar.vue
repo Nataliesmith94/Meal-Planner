@@ -11,6 +11,7 @@
 <style>
     #navbar {
         display: inline-block;
+        position: static;
         height: 5px;
         width: 100%;
         font-family: Avenir;

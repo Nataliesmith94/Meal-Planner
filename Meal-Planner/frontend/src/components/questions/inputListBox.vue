@@ -5,13 +5,6 @@
             label="inputBox">
             {{ label }}
         </label>
-        <input
-            :name="name"
-            :id="name"
-            :placeholder="placeholder"
-            :type="type"
-            :value="value"
-            @input="$emit('input', $event.target.value)"/>
     </div>
 </template>
 
@@ -23,13 +16,13 @@ export default {
       type: String,
       required: true
     },
-    id: {
-      type: String,
-      required: false
-    },
     type: {
       type: String,
       default: 'text'
+    },
+    value: {
+      type: [String, Number],
+      default: ''
     },
     placeholder: {
       type: String,
@@ -38,12 +31,8 @@ export default {
     label: {
       type: String,
       default: ''
-    },
-    value: {
-        type: [String, Number],
-        default: ''
-      }
-  },
+    }
+  }
 }
 </script>
 <style>
