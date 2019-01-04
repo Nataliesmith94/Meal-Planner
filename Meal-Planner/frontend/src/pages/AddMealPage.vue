@@ -4,59 +4,67 @@
     <ul>
         <input-box
             id="MealName"
-            v-model="MealName"
             name="MealName"
             label="Meal Name:"
             placeholder="Please enter the meal name..."
-            type="text"/>
+            type="text"
+            v-model="recipe.MealName"/>
 
         <input-box
-            name="Ingredients"
             id="Ingredients"
-            v-model="Ingredients"
+            name="Ingredients"
             label="Ingredients:"
             placeholder="Please enter the Ingredients used..."
-            type="text"/>
+            type="text"
+            v-model="recipe.Ingredients"/>
 
         <input-box
-            name="PrepTime"
             id="PrepTime"
+            name="PrepTime"
             label="PrepTime:"
             placeholder="Please enter the prep time used..."
             type="number"
-            v-model="PrepTime"/>
+            v-model="recipe.PrepTime"/>
 
         <input-box
-            name="CookingTime"
             id="CookingTime"
+            name="CookingTime"
             label="CookingTime:"
             placeholder="Please enter the Cooking Time needed..."
             type="number"
-            v-model="CookingTime"/>
+            v-model="recipe.CookingTime"/>
 
         <input-box
-            name="Categories"
+            id="Method"
+            name="Method"
+            label="Method:"
+            placeholder="Please enter the method..."
+            type="text"
+            v-model="recipe.Method"/>
+
+        <input-box
             id="Categories"
+            name="Categories"
             label="Categories:"
             placeholder="Please select the cateogry..."
             type="text"
-            v-model="Categories"/>
+            v-model="recipe.Categories"/>
 
         <input-box
-            name="Source"
             id="Source"
+            name="Source"
             label="Source:"
             placeholder="Please Enter the Source..."
             type="text"
-            v-model="Source"/>
+            v-model="recipe.Source"/>
 
         <input-box
-            name="Author"
             id="Author"
+            name="Author"
             label="Author:"
             placeholder="Please Enter the Author..."
             type="String"
-            v-model="Author"/>
+            v-model="recipe.Author"/>
 
         <button
             class="btn__submit"
@@ -64,7 +72,7 @@
         > Submit
         </button>
     </ul>
-    <p>Meal Name: {{ MealName }}</p>
+    <p> {{ result }} </p>
 </div>
 </template>
 
@@ -82,26 +90,31 @@ export default {
   },
   data () {
     return {
-      MealName: '',
-      Ingredients: '',
-      PrepTime: 0,
-      CookingTime: 0,
-      Categories: '',
-      Source: '',
-      Author: ''
+      recipe: {
+        MealName: '',
+        Ingredients: '',
+        PrepTime: 0,
+        CookingTime: 0,
+        Method: '',
+        Categories: '',
+        Source: '',
+        Author: ''
+      },
+      result: null
     }
   },
   methods: {
     postRequest () {
-      axios.post('http://localhost:9000/api/plannerDB/add', {
-        mealName: this.MealName,
+      var data = {
+        mealName: this.recipe.MealName,
         ingredients: ['Test1', 'test2'],
-        method: ['Test1', 'test2'],
-        prepTime: this.prepTime,
-        cookingTime: this.cookingTime,
+        prepTime: this.recipe.PrepTime,
+        cookingTime: this.recipe.CookingTime,
         categories: ['Test1', 'test2'],
-        author: this.author
-      })
+        method: ['Test1', 'test2'],
+        author: this.recipe.Author
+      }
+      axios.post('http://localhost:9000/api/plannerDB/add', data)
         .then(response => {
           this.result = response.data
           console.log(this.result)
@@ -109,6 +122,12 @@ export default {
         .catch(e => {
           console.log(e)
         })
+      this.resetForm()
+    },
+
+    resetForm () {
+      console.log('resetting form')
+      this.recipe = {}
     }
   }
 }
@@ -128,7 +147,6 @@ export default {
     h2 {
         position: relative;
         padding-top: inherit;
-
     }
 
     input {
