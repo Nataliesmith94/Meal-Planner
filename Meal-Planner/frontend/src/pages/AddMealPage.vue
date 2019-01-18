@@ -42,7 +42,7 @@
             type="text"
             v-model="recipe.Method"/>
 
-        <input-box
+        <list-box
             id="Categories"
             name="Categories"
             label="Categories:"
@@ -80,6 +80,7 @@
 import Header from '@/components/Header'
 import inputBox from '@/components/questions/inputBox'
 import inputListBox from '@/components/questions/inputListBox'
+import ListBox from '@/components/questions/ListBox'
 import navbar from '@/components/NavBar'
 import axios from 'axios'
 
@@ -88,7 +89,8 @@ export default {
     'app-header': Header,
     'input-box': inputBox,
     'navbar': navbar,
-    'input-list-box': inputListBox
+    'input-list-box': inputListBox,
+    'list-box': ListBox,
   },
   data () {
     return {

@@ -30,7 +30,10 @@ export default {
   name: 'inputListBox',
   data () {
     return {
-      inputs: []
+      items: [
+          {text: "ingrediants 1"},
+          {text: "ingrediants 2"}
+      ]
     }
   },
   props: {
@@ -56,12 +59,6 @@ export default {
     }
   },
   methods: {
-    addRow () {
-      console.log('Add row')
-      this.inputs.push({
-        one: ''
-      })
-    },
     addNewRow () {
       console.log('Add New Row')
       var container = document.getElementById("container");
@@ -74,6 +71,15 @@ export default {
       input.id = "row1";
       input.setAttribute("Placeholder", "New ingrediant");
       container.appendChild(input);
+
+        if(input.value !== '') {
+            this.items.push({
+                text: input.value
+            })
+            input.value = "";
+        }
+
+        console.log(this.items)
     },
 
     removeLastRow () {
