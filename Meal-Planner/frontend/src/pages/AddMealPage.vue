@@ -10,7 +10,7 @@
             type="text"
             v-model="recipe.MealName"/>
 
-        <input-box
+        <input-list-box
             id="Ingredients"
             name="Ingredients"
             label="Ingredients:"
@@ -79,6 +79,7 @@
 <script>
 import Header from '@/components/Header'
 import inputBox from '@/components/questions/inputBox'
+import inputListBox from '@/components/questions/inputListBox'
 import navbar from '@/components/NavBar'
 import axios from 'axios'
 
@@ -86,7 +87,8 @@ export default {
   components: {
     'app-header': Header,
     'input-box': inputBox,
-    'navbar': navbar
+    'navbar': navbar,
+    'input-list-box': inputListBox
   },
   data () {
     return {
@@ -150,7 +152,7 @@ export default {
     }
 
     input {
-        width: 20%;
+        width: 50%;
         font-size: 16px;
         padding: 10px;
         float: left;

@@ -1,16 +1,38 @@
 <template>
-    <div class="inputbox">
-        <label
-            :for="name"
-            label="inputBox">
-            {{ label }}
-        </label>
+    <div class="inputListBox">
+        <div
+            class="container"
+            id="container">
+            <label
+                :for="name"
+                label="inputBox">
+                {{ label }}
+            </label>
+            <input
+                :id="name"
+                :name="name"
+                :placeholder="placeholder"
+                :type="type"
+                :value="value"
+                @input="$emit('input', $event.target.value)"/>
+            <button
+                class="addButton"
+                @click="addNewRow"> Add </button>
+            <button
+                class="removeButton"
+                @click="removeLastRow"> Remove </button>
+        </div>
     </div>
 </template>
 
 <script>
 export default {
-  name: 'inputBox',
+  name: 'inputListBox',
+  data () {
+    return {
+      inputs: []
+    }
+  },
   props: {
     name: {
       type: String,
@@ -32,11 +54,38 @@ export default {
       type: String,
       default: ''
     }
+  },
+  methods: {
+    addRow () {
+      console.log('Add row')
+      this.inputs.push({
+        one: ''
+      })
+    },
+    addNewRow () {
+      console.log('Add New Row')
+      var container = document.getElementById("container");
+      var input = document.createElement("input");
+      var button = document.createElement("button");
+
+      input.appendChild(button);
+
+      input.type = "text";
+      input.id = "row1";
+      input.setAttribute("Placeholder", "New ingrediant");
+      container.appendChild(input);
+    },
+
+    removeLastRow () {
+        var container = document.getElementById("container");
+        container.lastElementChild.remove();
+    }
   }
 }
 </script>
+
 <style>
- .inputbox {
+ .inputListBox {
      margin: auto;
      display: flex;
      flex-direction: row;
@@ -52,5 +101,9 @@ export default {
 
  input {
      display: inline-block;
+ }
+
+ .addButton {
+     border-radius: 50%;
  }
 </style>
