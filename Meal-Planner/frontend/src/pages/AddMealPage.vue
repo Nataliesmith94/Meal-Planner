@@ -90,17 +90,17 @@ export default {
     'input-box': inputBox,
     'navbar': navbar,
     'input-list-box': inputListBox,
-    'list-box': ListBox,
+    'list-box': ListBox
   },
   data () {
     return {
       recipe: {
         MealName: '',
-        Ingredients: '',
+        Ingredients: [],
         PrepTime: 0,
         CookingTime: 0,
-        Method: '',
-        Categories: '',
+        Method: [],
+        Categories: [],
         Source: '',
         Author: ''
       },
@@ -161,4 +161,11 @@ export default {
         border: 2px solid slategrey;
         background-color: white;
     }
+
+    .btn__submit {
+        width: 80px;
+        height: 40px;
+        border-radius: 22%;
+    }
+
 </style>

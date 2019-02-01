@@ -20,7 +20,8 @@
                 @click="addNewRow"> Add </button>
             <button
                 class="removeButton"
-                @click="removeLastRow"> Remove </button>
+                @click="removeLastRow">
+                Remove </button>
         </div>
     </div>
 </template>
@@ -30,10 +31,7 @@ export default {
   name: 'inputListBox',
   data () {
     return {
-      items: [
-          {text: "ingrediants 1"},
-          {text: "ingrediants 2"}
-      ]
+      items: []
     }
   },
   props: {
@@ -60,31 +58,30 @@ export default {
   },
   methods: {
     addNewRow () {
-      console.log('Add New Row')
-      var container = document.getElementById("container");
-      var input = document.createElement("input");
-      var button = document.createElement("button");
+      var container = document.getElementById('container')
+      var input = document.createElement('input')
+      var button = document.createElement('button')
 
-      input.appendChild(button);
+      input.appendChild(button)
 
-      input.type = "text";
-      input.id = "row1";
-      input.setAttribute("Placeholder", "New ingrediant");
-      container.appendChild(input);
+      input.type = 'text'
+      input.id = 'row1'
+      input.setAttribute('Placeholder', 'New ingredient')
+      container.appendChild(input)
 
-        if(input.value !== '') {
-            this.items.push({
-                text: input.value
-            })
-            input.value = "";
-        }
+      if (input.value !== '') {
+        this.items.push({
+          text: input.value
+        })
+        input.value = ''
+      }
 
-        console.log(this.items)
+      console.log(this.items)
     },
 
     removeLastRow () {
-        var container = document.getElementById("container");
-        container.lastElementChild.remove();
+      var container = document.getElementById('container')
+      container.lastElementChild.remove()
     }
   }
 }
