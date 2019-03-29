@@ -93,6 +93,7 @@ export default {
      display: flex;
      flex-direction: row;
      margin: 10px;
+     justify-content: center;
  }
  label {
      display: inline-block;

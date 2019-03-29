@@ -16,27 +16,17 @@
                class="addItemIcon"
                src="/static/svg/add2.svg"
                @click="addItem"/>
-            <!--<button-->
-                <!--class="addItem"-->
-                <!--@click="addItem">-->
-                <!--<img class="addIcon" src="/static/svg/add2.svg"/>-->
-            <!--</button>-->
         </div>
        <ul>
-           <li v-for="(item, index) in items">
+           <li class='listContainer'
+               v-for="(item, index) in items" :key="index">
                <img
                    class="removeItemIcon"
                    src="/static/svg/remove.svg"
-                   click="deleteItem(index)">
+                   @click="deleteItem(index)">
                <p class="listItem">
                    {{ item.text }}
                </p>
-               <!--<button-->
-                   <!--class="deleteItem"-->
-                   <!--@click="deleteItem(index)">-->
-                   <!--X-->
-               <!--</button>-->
-
            </li>
        </ul>
     </div>
@@ -99,6 +89,8 @@ export default {
      flex-direction: row;
      margin: 10px;
      position: relative;
+     left: 19px;
+     width: 700px;
  }
  label {
      display: inline-block;
@@ -120,28 +112,37 @@ export default {
  }
 
  .addItemIcon {
-     width: 35px;
-     height: 35px;
+     width: 30px;
+     height: 30px;
      display: flex;
      align-items: center;
+     margin-left: 3px;
+     padding-top: 6px;
  }
 
  .removeItemIcon {
-     width: 35px;
-     height: 35px;
+     width: 30px;
+     height: 30px;
  }
 
  .inputContainer {
      display: flex;
+     justify-content: center;
  }
 
- .addItem {
-     border-radius: 50%;
-     margin-left: 10px;
+ .listContainer {
+     display: flex;
+     line-height: 30px;
+     padding-left: 95px;
+     padding-top: 10px;
  }
 
- .deleteItem {
-     width: 42px;
-     height: 42px;
+ listContainer:first-child {
+     margin-top: 8px;
+ }
+
+ .listItem {
+     margin: 1px;
+     margin-left: 4px;
  }
 </style>

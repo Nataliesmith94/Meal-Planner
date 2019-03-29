@@ -1,76 +1,78 @@
 <template>
 <div>
-    <h2>Add A New meal</h2>
-    <ul>
-        <input-box
-            id="MealName"
-            name="MealName"
-            label="Meal Name:"
-            placeholder="Please enter the meal name..."
-            type="text"
-            v-model="recipe.MealName"/>
+    <h2 class="heading">Add A New meal</h2>
+    <ul class="container">
+        <div>
+            <input-box
+                id="MealName"
+                name="MealName"
+                label="Meal Name:"
+                placeholder="Please enter the meal name..."
+                type="text"
+                v-model="recipe.MealName"/>
 
-        <input-list-box
-            id="Ingredients"
-            name="Ingredients"
-            label="Ingredients:"
-            placeholder="Please enter the Ingredients used..."
-            type="text"
-            v-model="recipe.Ingredients"/>
+            <list-box
+                id="Ingredients"
+                name="Ingredients"
+                label="Ingredients:"
+                placeholder="Please enter the Ingredients used..."
+                type="text"
+                v-model="recipe.Ingredients"/>
 
-        <input-box
-            id="PrepTime"
-            name="PrepTime"
-            label="PrepTime:"
-            placeholder="Please enter the prep time used..."
-            type="number"
-            v-model="recipe.PrepTime"/>
+            <input-box
+                id="PrepTime"
+                name="PrepTime"
+                label="PrepTime:"
+                placeholder="Please enter the prep time used..."
+                type="number"
+                v-model="recipe.PrepTime"/>
 
-        <input-box
-            id="CookingTime"
-            name="CookingTime"
-            label="CookingTime:"
-            placeholder="Please enter the Cooking Time needed..."
-            type="number"
-            v-model="recipe.CookingTime"/>
+            <input-box
+                id="CookingTime"
+                name="CookingTime"
+                label="CookingTime:"
+                placeholder="Please enter the Cooking Time needed..."
+                type="number"
+                v-model="recipe.CookingTime"/>
 
-        <input-box
-            id="Method"
-            name="Method"
-            label="Method:"
-            placeholder="Please enter the method..."
-            type="text"
-            v-model="recipe.Method"/>
+            <input-box
+                id="Method"
+                name="Method"
+                label="Method:"
+                placeholder="Please enter the method..."
+                type="text"
+                v-model="recipe.Method"/>
 
-        <list-box
-            id="Categories"
-            name="Categories"
-            label="Categories:"
-            placeholder="Please select the cateogry..."
-            type="text"
-            v-model="recipe.Categories"/>
+            <list-box
+                id="Categories"
+                name="Categories"
+                label="Categories:"
+                placeholder="Please select the cateogry..."
+                type="text"
+                v-model="recipe.Categories"/>
 
-        <input-box
-            id="Source"
-            name="Source"
-            label="Source:"
-            placeholder="Please Enter the Source..."
-            type="text"
-            v-model="recipe.Source"/>
+            <input-box
+                id="Source"
+                name="Source"
+                label="Source:"
+                placeholder="Please Enter the Source..."
+                type="text"
+                v-model="recipe.Source"/>
 
-        <input-box
-            id="Author"
-            name="Author"
-            label="Author:"
-            placeholder="Please Enter the Author..."
-            type="String"
-            v-model="recipe.Author"/>
+            <input-box
+                id="Author"
+                name="Author"
+                label="Author:"
+                placeholder="Please Enter the Author..."
+                type="String"
+                v-model="recipe.Author"/>
 
-        <button
-            class="btn__submit"
-            @click="postRequest"
-        > Submit
-        </button>
+            <button
+                class="btn__submit"
+                @click="postRequest"
+            > Submit
+            </button>
+        </div>
     </ul>
     <p> {{ result }} </p>
 </div>
@@ -138,13 +140,15 @@ export default {
 </script>
 
 <style>
+    @import url('https://fonts.googleapis.com/css?family=Quicksand');
+
     button {
         width: 50px;
         height: 50px;
         background-color: skyblue;
     }
 
-    ul {
+    .container {
         display: block;
     }
 
@@ -154,7 +158,7 @@ export default {
     }
 
     input {
-        width: 50%;
+        width: 70%;
         font-size: 16px;
         padding: 10px;
         float: left;
@@ -163,9 +167,16 @@ export default {
     }
 
     .btn__submit {
-        width: 80px;
-        height: 40px;
-        border-radius: 22%;
+        width: 120px;
+        height: 55px;
+        border-radius: 20px;
+        background-color: #5294DF;
+        font-size: 14px;
     }
 
+    .heading {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
 </style>

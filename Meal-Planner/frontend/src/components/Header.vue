@@ -37,7 +37,9 @@ export default {
   }
 
   header h1 {
-      color: slategrey;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 700;
+      color: darkslategrey;
       text-align: center;
       margin: 0px;
   }

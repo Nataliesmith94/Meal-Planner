@@ -1,11 +1,13 @@
 <template>
     <div class="inputbox">
         <label
+            class="inputbox__label"
             :for="name"
             label="inputBox">
             {{ label }}
         </label>
         <input
+            class="inputbox__input"
             :name="name"
             :id="name"
             :placeholder="placeholder"
@@ -52,6 +54,8 @@ export default {
      display: flex;
      flex-direction: row;
      margin: 10px;
+     justify-content: center;
+     width: 700px;
  }
  label {
      display: inline-block;
@@ -63,5 +67,6 @@ export default {
 
  input {
      display: inline-block;
+     border-radius: 6px;
  }
 </style>

@@ -14,11 +14,12 @@
         position: static;
         height: 5px;
         width: 100%;
-        font-family: Avenir;
         font-size: 20px;
         margin-top: 11px;
         margin-bottom: 2em;
         line-height: 7px;
+        font-family: 'Quicksand', sans-serif;
+        color: darkslategrey;
     }
     #navbar ul {
         list-style-type: none;
@@ -37,7 +38,6 @@
         padding: 15px 30px 15px 30px;
         cursor: pointer;
         text-decoration: none;
-
     }
 
     #navbar li:hover {
