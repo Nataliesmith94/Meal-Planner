@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35c9865-4631-4ad7-8c55-1e0d1faf8949" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Meal-Planner/frontend/static/svg/add.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Meal-Planner/frontend/static/svg/add2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Meal-Planner/frontend/static/svg/remove.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Meal-Planner/frontend/src/store/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/ListBox.vue" afterPath="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/ListBox.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputListBox.vue" afterPath="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputListBox.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Meal-Planner/frontend/package-lock.json" afterPath="$PROJECT_DIR$/Meal-Planner/frontend/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Meal-Planner/frontend/package.json" afterPath="$PROJECT_DIR$/Meal-Planner/frontend/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Meal-Planner/frontend/src/pages/AddMealPage.vue" afterPath="$PROJECT_DIR$/Meal-Planner/frontend/src/pages/AddMealPage.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/application/.gradle/" />
@@ -32,109 +30,76 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Planner" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4616329">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="AddMealPage.vue" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/pages/AddMealPage.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="742">
-                  <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#2059#2099#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="inputListBox.vue" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputListBox.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="add.svg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/static/svg/add.svg">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="54" lean-forward="false" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="add2.svg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/static/svg/add2.svg">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="inputBox.vue" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputBox.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="202">
-                  <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="SearchForMealsPage.vue" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/pages/SearchForMealsPage.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Search.vue" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/Search.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1095">
-                  <caret line="73" column="5" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ListBox.vue" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/ListBox.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-560">
-                  <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="remove.svg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/static/svg/remove.svg">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AddMealPage.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/pages/AddMealPage.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1062">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="e#2360#2400#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/Header.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-163">
+              <caret line="41" column="27" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="41" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavBar.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/NavBar.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListBox.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/ListBox.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inputBox.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputBox.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,9 +107,9 @@
         <option value="Interface" />
         <option value="HTML File" />
         <option value="JUnit4 Test Class" />
-        <option value="JavaScript File" />
         <option value="Class" />
         <option value="FxmlFile" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -169,6 +134,10 @@
       <find>inputItem</find>
       <find>ListBox</find>
       <find>inputs</find>
+      <find>v-for</find>
+      <find>vue appli</find>
+      <find>Add meal</find>
+      <find>vuex-ma</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -595,22 +564,25 @@
         <option value="$PROJECT_DIR$/application/src/main/java/WebConfig.java" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/TextQuestion.vue" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/router/index.js" />
-        <option value="$PROJECT_DIR$/application/src/main/java/com/planner/application/springboot/RecipeController.java" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/Search.vue" />
-        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/Header.vue" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/pages/HomePage.vue" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/App.vue" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/SearchByID.vue" />
-        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/NavBar.vue" />
-        <option value="$PROJECT_DIR$/application/src/main/java/com/planner/application/domain/Recipe.java" />
         <option value="$PROJECT_DIR$/application/src/main/java/com/planner/application/WebConfig.java" />
-        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputBox.vue" />
         <option value="$PROJECT_DIR$/application/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/pages/SearchForMealsPage.vue" />
-        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/pages/AddMealPage.vue" />
-        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputListBox.vue" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/static/svg/Add.svg.fxml" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/static/svg/add (1).svg" />
+        <option value="$PROJECT_DIR$/application/src/main/java/com/planner/application/springboot/RecipeController.java" />
+        <option value="$PROJECT_DIR$/Meal-Planner/frontend/static/svg/remove.svg" />
+        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputBox.vue" />
+        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputListBox.vue" />
+        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/Header.vue" />
+        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/state/store.js" />
+        <option value="$PROJECT_DIR$/application/src/main/java/com/planner/application/domain/Recipe.java" />
+        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/NavBar.vue" />
+        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/store/index.js" />
+        <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/pages/AddMealPage.vue" />
         <option value="$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/ListBox.vue" />
       </list>
     </option>
@@ -632,7 +604,7 @@
     <handled-path value="$PROJECT_DIR$/Meal-Planner/frontend/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
+    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1109" />
@@ -653,8 +625,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -699,6 +672,22 @@
             </path>
             <path>
               <item name="Planner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Planner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Planner" type="b2602c69:ProjectViewProjectNode" />
               <item name="Meal-Planner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -710,21 +699,27 @@
               <item name="Planner" type="b2602c69:ProjectViewProjectNode" />
               <item name="Meal-Planner" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Planner" type="b2602c69:ProjectViewProjectNode" />
               <item name="Meal-Planner" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Planner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Meal-Planner" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -745,7 +740,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="SearchEverywhereHistoryKey" value="ap&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/application/src/main/resources/application.yml&#10;text&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/src/components/questions/TextQuestion.vue&#10;package.json&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/package.json&#10;router.js&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/node_modules/vue-router/dist/vue-router.js&#10;appli&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/application/src/main/resources/application.yml&#10;applic&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/application/src/main/java/com/planner/application/Application.java&#10;pack&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/package.json&#10;index&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/src/router/index.js&#10;applica&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/application/src/main/resources/application.yml&#10;pom.xml&#9;FILE&#9;jar:///Users/natalie.smith/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar!/META-INF/maven/ch.qos.logback/logback-core/pom.xml&#10;classpatj&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/com/sun/org/apache/bcel/internal/util/ClassPath.java&#10;MockingDetails&#9;PSI&#9;JAVA://org.mockito.MockingDetails" />
+    <property name="SearchEverywhereHistoryKey" value="Lis&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/src/components/questions/ListBox.vue&#10;Add&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/src/pages/AddMealPage.vue&#10;List&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/src/components/questions/ListBox.vue&#10;ap&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/application/src/main/resources/application.yml&#10;text&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/src/components/questions/TextQuestion.vue&#10;package.json&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/package.json&#10;router.js&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/node_modules/vue-router/dist/vue-router.js&#10;appli&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/application/src/main/resources/application.yml&#10;applic&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/application/src/main/java/com/planner/application/Application.java&#10;pack&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/package.json&#10;index&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/Meal-Planner/frontend/src/router/index.js&#10;applica&#9;FILE&#9;file:///Users/natalie.smith/code/Planner/application/src/main/resources/application.yml&#10;pom.xml&#9;FILE&#9;jar:///Users/natalie.smith/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar!/META-INF/maven/ch.qos.logback/logback-core/pom.xml&#10;classpatj&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/com/sun/org/apache/bcel/internal/util/ClassPath.java&#10;MockingDetails&#9;PSI&#9;JAVA://org.mockito.MockingDetails" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -1042,7 +1037,10 @@
       <workItem from="1545400870898" duration="6150000" />
       <workItem from="1546607066515" duration="9620000" />
       <workItem from="1547815739136" duration="10827000" />
-      <workItem from="1549030396157" duration="5431000" />
+      <workItem from="1549030396157" duration="7496000" />
+      <workItem from="1550745380358" duration="53000" />
+      <workItem from="1550757337021" duration="41000" />
+      <workItem from="1553865640654" duration="9080000" />
     </task>
     <task id="LOCAL-00001" summary="Added axios to link vue.js to springboot">
       <created>1541770525108</created>
@@ -1100,7 +1098,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547823078904</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added styling">
+      <created>1549036090751</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549036090751</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated styling of adding">
+      <created>1553873721243</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553873721243</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1136,7 +1148,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179250000" />
+    <option name="totallyTimeSpent" value="190489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1148,7 +1160,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1920" height="1109" extended-state="6" />
+    <frame x="1" y="23" width="1920" height="1109" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1165,16 +1177,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38954636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19526628" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2642998" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13258786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38856015" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18244576" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2366864" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14323749" sideWeight="0.7170953" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3557423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13258786" sideWeight="0.28290468" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1235,14 +1247,16 @@
     <MESSAGE value="Cleared text boxes and refactored" />
     <MESSAGE value="Dynamically add input box to form" />
     <MESSAGE value="Dynamically add List Items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dynamically add List Items" />
+    <MESSAGE value="Added styling" />
+    <MESSAGE value="Updated styling of adding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated styling of adding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputBox.vue</url>
-          <line>49</line>
+          <line>51</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -1252,7 +1266,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputBox.vue</url>
-          <line>52</line>
+          <line>54</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
@@ -1273,37 +1287,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/pages/AddMealPage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#2059#2099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/TextQuestion.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/SearchByID.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/Header.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
@@ -1370,7 +1353,7 @@
         <state relative-caret-position="285">
           <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
-            <element signature="e#2059#2099#0" expanded="true" />
+            <element signature="e#2360#2400#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1464,13 +1447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/http-common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1478,25 +1454,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/NavBar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1528,47 +1489,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/main/java/com/planner/application/springboot/RecipeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/application.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/main/java/com/planner/application/domain/Recipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="29" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,29 +1513,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/pages/SearchForMealsPage.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="360">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/static/svg/Add.svg.fxml" />
+    <entry file="file://$PROJECT_DIR$/application/src/main/java/com/planner/application/springboot/RecipeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#777#778#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/java/com/planner/application/springboot/RecipeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/application.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/static/svg/remove.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputListBox.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="419">
+          <caret line="95" column="29" lean-forward="false" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/static/svg/Add.svg.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/static/svg/add.svg">
@@ -1632,23 +1605,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/inputBox.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/pages/AddMealPage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
-          <folding>
-            <element signature="e#2059#2099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/static/svg/remove.svg">
+    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/state/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1656,11 +1619,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/java/com/planner/application/domain/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="41" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/NavBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/components/questions/ListBox.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        <state relative-caret-position="855">
+          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meal-Planner/frontend/src/pages/AddMealPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1062">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#2360#2400#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

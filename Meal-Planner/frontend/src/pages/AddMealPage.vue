@@ -85,6 +85,7 @@ import inputListBox from '@/components/questions/inputListBox'
 import ListBox from '@/components/questions/ListBox'
 import navbar from '@/components/NavBar'
 import axios from 'axios'
+import { mapFields } from 'vuex-map-fields'
 
 export default {
   components: {
@@ -108,6 +109,18 @@ export default {
       },
       result: null
     }
+  },
+  computed: {
+    ...mapFields([
+      'MealName',
+      'Ingredients',
+      'PrepTime',
+      'CookingTime',
+      'Method',
+      'Categories',
+      'Source',
+      'Author'
+    ])
   },
   methods: {
     postRequest () {
