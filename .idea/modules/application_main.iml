@@ -4,9 +4,14 @@
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../application/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../application/build/classes/java/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../application/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../application/src/main/java" isTestSource="false" />
